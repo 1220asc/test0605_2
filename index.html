@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>박가람의 포트폴리오</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="index.css">
+
+    <style>
+        
+        @import url('https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR:wght@100..900&display=swap');
+        </style>
+       
+    <style>
+
+        
+        body, html {
+            max-width: 1920px;
+            margin: 0 auto;
+        }
+        
+        body {
+            margin: 0;
+           
+            background-color: black;
+            color: white;
+        }
+
+        .section {
+            position: relative;
+            width: 100%;
+            height: 600px;
+            padding: 20px;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: background-color 1s ease;
+        }
+        
+        .section:nth-child(even) {
+            background-color: #333;
+        }
+        
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            text-align: center;
+            margin-left: 10px;
+        }
+        
+        h1 {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+        
+        .box {
+            width: 2180px;
+            height: 500px;
+            margin: 10px;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transform: translateX(-150px);
+            transition: 1s;
+          
+            margin-bottom: 129px;
+            margin-left: -500px;
+        }
+        
+        .show .box {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        .fade-in {
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+
+        .show .fade-in {
+            opacity: 1;
+        }
+        
+        .info {
+            font-size: 20px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+
+
+  <span><div class="textcon">
+    <span><div class="textcon1">Home</div></span> 
+    <span><div class="textcon2">About</div></span> 
+    <span><div class="textcon3">Skills</div></span> 
+    <span><div class="textcon4">Works</div></span> 
+    <span><div class="textcon5">Contact</div></span> 
+   </div></span>
+
+
+   
+  <span><div class="line1"></div></span>
+
+
+    <span><div class="con2"><img src="배경3.jpg"></div></span>
+    <span><div class="con1"><img src="프로필.png" alt=""></div></span>
+   
+          
+  
+
+
+   
+
+<span><div class="text1">Park Garam's <br> Portfolio</div></span>
+
+<section class="section scroll-spy">
+    <div class="container">
+        <h1>About ME</h1>
+       
+        <div class="box fade-in">
+            <span><div class="line2"></div></span>
+            <span><div class="tt1">저는 창의적이고 열정적인 웹 개발자입니다. <br>다양한 프로젝트를 통해 실력을 쌓아왔습니다.</div></span>
+            
+
+            <span><div class="tta">
+            <span><div class="tt2">Name: Park Garam</div></span>
+            <span><div class="tt3">Age: 23 years old</div></span>
+            <span><div class="tt4">School: Seoul Jeongsu Campus of <br>ﾠ ﾠ ﾠ ﾠ ﾠ ﾠ ﾠ Korea Polytechnic University</div></span>
+        </div></span>
+             
+        </div>
+    </div>
+</section>
+
+    <section class="section scroll-spy">
+        <div class="container">
+            <h1>Skills</h1>
+            <div class="box fade-in">
+              
+
+<span><div class="eea">
+            <span><div class="ee2"><img src="HTML.png" alt=""></div></span>
+            <span><div class="ee3"><img src="CSS.png" alt=""></div></span>
+            <span><div class="ee4"><img src="JavaScript.png" alt=""></div></span>
+            <span><div class="ee5"><img src="GTQ - I.png" alt=""></div></span>
+
+        </div></span>    
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="section scroll-spy">
+        <div class="container">
+            <h1>Works</h1>
+            <div class="box fade-in">
+
+                <span><div class="por">
+              <span><div class="port1"><img src="0000.jpg" alt=""></div></span>
+              <span><div class="port2"><img src="00.png"></div></span>
+            </div></span>
+            
+<span><div class="text777">
+    Working on the above Miero Fiber page
+</div></span>
+
+<span><div class="text888">
+    Working on the above display page
+</div></span>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="section scroll-spy">
+        <div class="container">
+            <h1>Contact</h1>
+            <div class="box fade-in">
+
+
+                <span><div class="text121212">
+
+
+              
+                <span><div class="text999">Phone number: 000-1234-5678</div></span>
+                <span><div class="text11110">Mail: 12345@naver.com</div></span>
+                <span><div class="line3"></div></span>
+            </div></span>
+                    
+            </div>
+        </div>
+    </section>
+
+
+    <span><div class="footer"></div></span>
+
+    <script>
+        const spyEls = document.querySelectorAll('section.scroll-spy');
+        const controller = new ScrollMagic.Controller();
+
+        spyEls.forEach(function (spyEl) {
+            new ScrollMagic
+                .Scene({ triggerElement: spyEl })
+                .setClassToggle(spyEl, 'show')
+                .addTo(controller);
+        });
+
+        window.addEventListener('scroll', function () {
+            const sections = document.querySelectorAll('.section');
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+            sections.forEach((section, index) => {
+                const offset = (scrollTop - section.offsetTop) / 2;
+                section.style.backgroundColor = `rgba(0, 0, 0, ${Math.max(0, 1 - offset / 300)})`;
+            });
+        });
+    </script>
+
+    <script>document.addEventListener("DOMContentLoaded", function() {
+        const divs = document.querySelectorAll('.eea > span > div'); // 모든 이미지 컨테이너를 선택합니다.
+        let delay = 0; // 각 이미지의 애니메이션 시작 지연 시간입니다.
+        
+        divs.forEach(div => {
+          setTimeout(() => {
+            div.classList.add('active'); // active 클래스를 추가하여 애니메이션을 활성화합니다.
+          }, delay);
+          delay += 600; // 다음 이미지는 0.5초 후에 애니메이션을 시작합니다.
+        });
+      });
+      </script>
+
+
+
+<!-- part -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var controller = new ScrollMagic.Controller();
+    
+        // 'port1' 이미지가 화면에 완전히 나타날 때 시작하는 Scene을 설정
+        var scene = new ScrollMagic.Scene({
+            triggerElement: '.port1', // 이 요소가 화면에 나타날 때 애니메이션 시작
+            triggerHook: 0.8, // 화면의 하단에서 애니메이션을 시작하기 위한 값 조정
+            reverse: true // 스크롤을 올리거나 내릴 때 애니메이션 반복
+        })
+        .setTween(gsap.to('.port1', {opacity: 1, duration: 3})) // 'port1'이 나타나는 애니메이션
+        .addTo(controller);
+    
+        // 'port1' 애니메이션이 끝난 후 'port2' 이미지가 나타나도록 설정
+        var scene2 = new ScrollMagic.Scene({
+            triggerElement: '.port1',
+            triggerHook: 0.8, // 여기도 동일하게 조정
+            reverse: true // 스크롤을 올리거나 내릴 때 애니메이션 반복
+        })
+        .setTween(gsap.to('.port2', {opacity: 1, duration: 1, delay: 1})) // 'port2'가 나타나는 애니메이션, 'port1' 애니메이션이 끝난 후 적절한 지연
+        .addTo(controller);
+    });
+    </script>
+    
+
+    <script>document.addEventListener('DOMContentLoaded', function() {
+    var controller = new ScrollMagic.Controller();
+
+    // 'port1'에 대한 애니메이션
+    var scene = new ScrollMagic.Scene({
+        triggerElement: '.port1', // 애니메이션 시작 요소
+        triggerHook: 0.8, // 화면의 하단에서 애니메이션 시작
+        reverse: false // 스크롤을 올릴 때 애니메이션을 반복하지 않음
+    })
+    .setTween(gsap.to('.port1', {opacity: 1, duration: 3})) // 'port1' 애니메이션
+    .addTo(controller);
+
+    // 'port2'에 대한 애니메이션
+    var scene2 = new ScrollMagic.Scene({
+        triggerElement: '.port2', // 애니메이션 시작 요소
+        triggerHook: 0.8, // 화면의 하단에서 애니메이션 시작
+        reverse: false // 스크롤을 올릴 때 애니메이션을 반복하지 않음
+    })
+    .setTween(gsap.to('.port2', {opacity: 1, duration: 1, delay: 1})) // 'port2' 애니메이션
+    .addTo(controller);
+
+    // 스크롤을 위로 올린 후 다시 내려왔을 때 애니메이션을 재시작하기 위한 로직
+    window.addEventListener('scroll', function() {
+        var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+        // 'port1'과 'port2'의 위치를 기준으로 스크롤 위치 확인하여 애니메이션 다시 시작
+        var port1Position = document.querySelector('.port1').getBoundingClientRect().top + scrollPosition;
+        var port2Position = document.querySelector('.port2').getBoundingClientRect().top + scrollPosition;
+
+        if(scrollPosition < port1Position || scrollPosition < port2Position) {
+            gsap.to('.port1', {opacity: 0, duration: 0});
+            gsap.to('.port2', {opacity: 0, duration: 0});
+        }
+    });
+});
+</script>
+
+
+
+
+    <script>document.addEventListener("DOMContentLoaded", function() {
+        const divs = document.querySelectorAll('.eea > span > div'); // 모든 이미지 컨테이너를 선택합니다.
+        let isAnimating = false; // 현재 애니메이션 중인지 확인합니다.
+      
+        function resetAnimation() {
+          divs.forEach(div => {
+            div.classList.remove('active'); // 모든 active 클래스를 제거하여 이미지를 숨깁니다.
+          });
+          isAnimating = false; // 애니메이션 상태를 초기화합니다.
+        }
+      
+        function startAnimation() {
+          if(isAnimating) return; // 이미 애니메이션 중이면 더 이상 진행하지 않습니다.
+          isAnimating = true;
+          let delay = 0; // 각 이미지의 애니메이션 시작 지연 시간입니다.
+          
+          divs.forEach(div => {
+            setTimeout(() => {
+              div.classList.add('active'); // active 클래스를 추가하여 애니메이션을 활성화합니다.
+            }, delay);
+            delay += 500; // 다음 이미지는 0.6초 후에 애니메이션을 시작합니다.
+          });
+        }
+      
+   // 스크롤을 맨 위로 올렸을 때 리셋
+window.addEventListener('scroll', function() {
+  if (window.pageYOffset < 100) { // 여기서 100px 아래로 스크롤 되었을 때 리셋
+    resetAnimation();
+  }
+});
+
+        // 사용자가 스크롤을 내릴 때 애니메이션 시작
+        const observer = new IntersectionObserver((entries, observer) => {
+          entries.forEach(entry => {
+            if(entry.isIntersecting) {
+              startAnimation();
+            }
+          });
+        });
+      
+        observer.observe(document.querySelector('.eea')); // 관찰 대상을 .eea로 설정합니다.
+      });
+
+
+
+      </script></script>
+
+
+
+<script>document.addEventListener("DOMContentLoaded", function() {
+    let lastScroll = 0; // 마지막 스크롤 위치를 저장할 변수입니다.
+  
+    // 사용자가 스크롤을 내릴 때 애니메이션 시작
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+        if(entry.isIntersecting && currentScroll > lastScroll) { // 스크롤이 아래로 진행될 때만
+          startAnimation();
+        }
+        lastScroll = currentScroll; // 현재 스크롤 위치를 마지막 스크롤 위치로 업데이트합니다.
+      });
+    });
+    
+    observer.observe(document.querySelector('.eea')); // 관찰 대상을 .eea로 설정합니다.
+    
+    // 페이지 스크롤 시 마지막 스크롤 위치 업데이트
+    window.addEventListener('scroll', function() {
+      lastScroll = window.pageYOffset || document.documentElement.scrollTop;
+    });
+  });
+  </script>
+  
+
+
+
+  <script><!-- GSAP 라이브러리 추가 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // 애니메이션 함수 정의
+      function animateCon1() {
+        gsap.fromTo(".con1", 
+          { 
+            x: -500, // 시작 위치 (왼쪽에서 출발)
+            rotation: -360 // 회전 시작 각도
+          }, 
+          { 
+            x: 0, // 최종 위치 (현재 위치)
+            rotation: 0, // 회전 최종 각도
+            duration: 2, // 애니메이션 지속 시간 (초)
+            ease: "power1.out" // 애니메이션의 완화 효과
+          });
+      }
+    
+      // 페이지 로드 시 애니메이션 실행
+      animateCon1();
+    
+      // 스크롤 이벤트를 감지하여 페이지 맨 위로 이동하면 애니메이션 재실행
+      window.addEventListener('scroll', function() {
+        if (window.scrollY === 0) {
+          animateCon1();
+        }
+      });
+    });
+    </script>
+    
+    </script>
+    </script>
+</body>
+</html>

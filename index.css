@@ -1,0 +1,192 @@
+body{
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    
+  }
+  
+  .con2 {
+    position: relative;
+  }
+  
+  .con2 img {
+    width: 1800px;
+    height: 900px;
+  }
+  
+  .con1 {
+    position: absolute;
+    top: 502px; /* 상위 요소인 .con2의 상단에 배치 */
+    left: 1140px; /* 상위 요소인 .con2의 왼쪽으로부터 400px 떨어진 위치에 배치 */
+    width: 100px;
+    /* margin-top을 제거하고 top 값을 조절하여 위치를 조정합니다. */
+  }
+  
+  .con1 img {
+    width: 210px; /* 필요에 따라 조정할 수 있습니다. */
+  }
+  
+  .text1 {
+    position: absolute; /* 절대 위치로 설정하여 .con2 내부에 배치 */
+    top: 580px; /* .con2의 상단으로부터 100px 떨어진 위치에 배치 */
+    left: 50%; /* .con2의 왼쪽에서 50% 떨어진 위치에 배치 */
+    transform: translateX(-50%); /* 수평 중앙 정렬 */
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 140px;
+    margin-top: -300px; /* 필요에 따라 조정할 수 있습니다. */
+    z-index: 1; /* 다른 요소들보다 위에 배치 */
+  }
+  
+  
+  .section .container h1 {
+    color: rgb(255, 255, 255); /* 제목의 색상을 검정으로 설정합니다 */
+    font-size: 2em; /* 제목의 글씨 크기를 키웁니다 */
+  
+  }
+  
+  .section .container .box p {
+    color: black; /* 글씨 색상을 검정으로 설정합니다 */
+    font-size: 15px; /* 글씨 크기를 키웁니다 */
+    margin-bottom: 20px; /* 문단 사이의 간격을 늘립니다 */
+    font-weight: bold;
+  }
+  
+  
+  .line1{
+    width: 2000px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+   
+    margin-top: 10px;
+    margin-left:-10px;
+    
+  }
+  
+  .textcon{
+    color: rgb(255, 255, 255);
+    display: flex;
+    gap: 190px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 460px;
+  }
+  
+  
+  .tt1{
+  font-size: 50px;
+  color: rgb(2, 2, 2);
+  font-weight: bold;
+  margin-top: -170px;
+  margin-left: 90px;
+  }
+  
+  
+     .tta{
+        color: rgb(33, 2, 105);
+        font-weight: bold;
+        font-size: 20px;
+  
+        display: flex;
+        margin-left: -550px;
+        gap: 130px;
+        margin-top: 230px;
+     }
+  
+     .tt2{
+        margin-left: -1230px;
+     }
+     .tt3{
+        margin-left: -700px;
+     }
+     .tt4{
+        margin-left: -230px;
+     }
+  
+     .line2{
+        background-color:rgb(33, 2, 105);
+        width: 800px;
+        height: 3px;
+        margin-left: -330px;
+        margin-top: -90px;
+     }
+  
+     .ee1{
+        font-size: 20px;
+        color: rgb(2, 2, 2);
+        font-weight: bold;
+        margin-top: -170px;
+        margin-left: 90px;
+     }
+  .eea img{
+    width: 300px;
+    
+  }
+  .eea {
+    display: flex;
+    gap: 40px;
+  }
+  
+  
+  .eea img {
+    width: 300px;
+    transition: opacity 1s, transform 1s; /* Transition for smooth effect */
+    opacity: 0; /* Start with images invisible */
+    transform: translateY(50px); /* Start slightly lower */
+  }
+  
+  .eea .active img {
+    opacity: 1; /* Make images fully visible */
+    transform: translateY(0); /* Move images to original position */
+  }
+  
+  
+  .por img{
+    width: 170px;
+   
+  }
+  
+  .por{
+    display: flex;
+    gap: 830px;
+  }
+  
+  
+  .port1, .port2 {
+    opacity: 0;
+  }
+  .port2{
+    margin-left: -230px;
+  }
+  
+  .text777{
+    color: rgb(33, 2, 105);
+    font-weight: bold;
+    margin-left: -1300px;
+  }
+  
+  .text888{
+    color: rgb(33, 2, 105);
+    font-weight: bold;
+    margin-left: -10px;
+  }
+  
+  .text121212{
+    color: rgb(78, 78, 78);
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: -1100px;
+    margin-top: 40px;
+  }
+  
+  
+  .line3{
+    background-color:rgb(33, 2, 105);
+    width: 1900px;
+    height: 3px;
+    margin-left: 2100px;
+    margin-top: 140px;
+  }
+  
+  
